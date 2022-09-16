@@ -1,0 +1,97 @@
+.contact-information {
+  background-color: #533483;
+}
+
+.text-information {
+  color: #fff;
+}
+
+.text-clr {
+  color: #808080;
+}
+
+.text-icon {
+  color: #d7c0c0;
+}
+
+.fa-facebook:hover {
+    background-color: #4267B2;
+    cursor: pointer;
+}
+
+.fa-twitter:hover {
+    background-color: #1DA1F2;
+    cursor: pointer;
+}
+
+.fa-linkedin:hover {
+    background-color: #0A66C2;
+    cursor: pointer;
+}
+
+.fa-instagram:hover {
+    background-color: #8a3ab9;
+    cursor: pointer;
+}
+
+.font-icon {
+  color: #ffc0cb;
+}
+
+@supports (not (-ms-ime-align: auto)) {
+  .label {
+    transform: translate(0.25rem, -1.5rem);
+    transition: all 0.2s ease-out;
+  }
+
+  .input:focus + .label,
+  .input:not(:placeholder-shown) + .label {
+    color: #533483;
+    transform: translate(0, -2.75rem);
+  }
+}
+
+.input:focus {
+  outline: none;
+  border-color: #533483;
+}
+
+.input {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.25rem;
+  border: none;
+  border-bottom: 2px solid #111;
+  transition: border-color 0.2s ease;
+}
+
+.radioType {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+
+  border: 2px solid #533483;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  position: relative;
+  top: 2px;
+
+  cursor: pointer;
+}
+
+.radioType:checked {
+  border: 8px solid #533483;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: #111;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px !important;
+}
